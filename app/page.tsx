@@ -4,10 +4,10 @@ export default function Page() {
   return (
     <main>
       <h1>Home page for app 2</h1>
-      <Link href="/">Home page for app 1</Link>
-      <Link href="/internal">Internal page for app 1</Link>
-      <Link href="/other">Home page for app 2</Link>
-      <Link href="/other/internal">Internal page for app 2</Link>
+      <a href="/">Home page for app 1</a>
+      <a href="/internal">Internal page for app 1</a>
+      <Link href="/">Home page for app 2</Link>
+      <Link href="/internal">Internal page for app 2</Link>
     </main>
   );
 }
